@@ -12,7 +12,7 @@
  * advanced database documentation at
  * https://api.backdropcms.org/database-configuration
  */
-$database = 'mysql://user:pass@localhost/database_name';
+$database = 'mysql://__DBNAME__:__DBPWD__@localhost/__DBNAME__';
 $database_prefix = '__DBNAME___';
 
 /**
