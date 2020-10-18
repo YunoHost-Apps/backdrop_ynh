@@ -101,7 +101,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 #=================================================
 ynh_script_progression --message="Configuring Backdrop..." --weight=1
 
-cp ../conf/settings.php "$final_path/settings.php"
+cp ../conf/settings.example.php "$final_path/settings.php"
 
 # Change variables in ttrss configuration
 ynh_replace_string --match_string="__DBNAME__" --replace_string="$db_name" --target_file="$final_path/settings.php"
