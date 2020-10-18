@@ -1,4 +1,4 @@
-    <?php
+<?php
     /**
      * @file
      * Main Backdrop CMS configuration file.
@@ -13,7 +13,8 @@
      * https://api.backdropcms.org/database-configuration
      */
     $database = 'mysql://__DBNAME__:__DBPWD__@localhost/__DBNAME__';
-    $database_prefix = '';
+    $database_prefix = '__DBNAME___';
+    $database_charset = 'utf8mb4';
 
     /**
      * Site configuration files location.

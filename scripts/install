@@ -91,7 +91,7 @@ ynh_system_user_create --username=$app
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION
+ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependencies"
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
@@ -117,8 +117,8 @@ ynh_store_file_checksum --file="$final_path/settings.php"
 #=================================================
 
 # Set permissions to app files
-chown -R root: $final_path
-chown -R $app:www-data $final_path/files
+chown -R $app:www-data $final_path
+#chown -R $app:www-data $final_path/files
 chmod -R 770 $final_path/files
 
 #=================================================
