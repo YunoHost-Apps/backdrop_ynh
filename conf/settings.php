@@ -1,4 +1,4 @@
-    <?php
+<?php
     /**
      * @file
      * Main Backdrop CMS configuration file.
