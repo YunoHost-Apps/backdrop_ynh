@@ -12,7 +12,7 @@ Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/#/insta
 
 Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System for building professional websites.
 
-**Version incluse :** 1.17.3
+**Version incluse :** 1.17.4
 
 ## Captures d’écran
 
