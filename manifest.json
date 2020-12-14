@@ -6,7 +6,7 @@
     "en": "Easy-to-use CMS for building professional websites",
     "fr": "CMS facile à utiliser pour créer des sites Web professionnels"
   },
-  "version": "1.17.4~ynh1",
+  "version": "1.17.4~ynh2",
   "url": "https://backdropcms.org/",
   "license": "GPL-2.0",
   "maintainer": {
@@ -50,6 +50,10 @@
         "en": "Is it a public site?",
         "fr": "Est-ce un site public ?"
     },
+      "help": {
+        "en": "If enabled, Backdrop will be accessible by people who do not have an account. This can be changed later via the webadmin.",
+        "fr": "Si cette case est cochée, Backdrop sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+        },
         "default": true
       }
     ]
