@@ -12,7 +12,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System for building professional websites.
 
-**Shipped version:** 1.18.0
+**Shipped version:** 1.18.1
 
 ## Screenshots
 
