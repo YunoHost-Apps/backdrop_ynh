@@ -434,6 +434,6 @@ $settings['backdrop_drupal_compatibility'] = TRUE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-if (file_exists(__DIR__ . '/settings.local.php')) {
-  include __DIR__ . '/settings.local.php';
+if (file_exists(__FINALPATH__ . '/settings.local.php')) {
+  include __FINALPATH__ . '/settings.local.php';
 }
