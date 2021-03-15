@@ -27,29 +27,17 @@
     {
       "name": "domain",
       "type": "domain",
-      "ask": {
-        "en": "Choose a domain for Backdrop",
-        "fr": "Choisissez un domaine pour Backdrop"
-      },
       "example": "domain.org"
     },
     {
       "name": "path",
       "type": "path",
-      "ask": {
-        "en": "Choose a path for Backdrop",
-        "fr": "Choisissez un chemin pour Backdrop"
-      },
       "example": "/backdrop",
       "default": "/backdrop"
       },
     {
       "name": "is_public",
       "type": "boolean",
-      "ask": {
-        "en": "Is it a public site?",
-        "fr": "Est-ce un site public ?"
-    },
       "help": {
         "en": "If enabled, Backdrop will be accessible by people who do not have an account. This can be changed later via the webadmin.",
         "fr": "Si cette case est cochée, Backdrop sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
