@@ -31,7 +31,6 @@ Backdrop CMS includes an update utility to handle any necessary changes to the d
 ## Documentation
 
  * Official documentation: https://backdropcms.org/user-guide
- * YunoHost documentation: https://yunohost.org/#/app_backdrop
 
 ## YunoHost specific features
 

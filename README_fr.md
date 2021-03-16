@@ -20,7 +20,7 @@ Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System
 
 ## Démo
 
-* [Démo officielle](https://demo.yunohost.org/ttrss/)
+* [Démo officielle](https://backdropcms.org/demo)
 
 ## Configuration
 
@@ -29,7 +29,6 @@ Backdrop CMS inclus un utilitaire de mise à jour pour gérer toutes les modific
 ## Documentation
 
 * Documentation officielle : https://backdropcms.org/user-guide
-* Documentation YunoHost : https://yunohost.org/#/app_backdrop_fr
 
 ## Caractéristiques spécifiques YunoHost
 
