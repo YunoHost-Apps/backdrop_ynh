@@ -73,7 +73,7 @@ ynh_abort_if_errors
 ynh_script_progression --message="Making sure dedicated system user exists..." --weight=1
 
 # Create a dedicated user (if not existing)
-ynh_system_user_create --username=$app
+ynh_system_user_create --username=$app --home_dir="$final_path"
 
 #=================================================
 # STANDARD UPGRADE STEPS
@@ -141,6 +141,7 @@ fi
 
 # Set permissions to app files
 chown -R root: $final_path
+chmod o-rwx $final_path
 chown -R $app:www-data $final_path/files
 chmod -R 770 $final_path/files
 

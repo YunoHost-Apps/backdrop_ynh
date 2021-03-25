@@ -61,7 +61,7 @@ ynh_mysql_setup_db --db_user=$db_name --db_name=$db_name
 ynh_script_progression --message="Configuring system user..." --weight=2
 
 # Create a system user
-ynh_system_user_create --username=$app
+ynh_system_user_create --username=$app --home_dir="$final_path"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -112,6 +112,7 @@ ynh_store_file_checksum --file="$final_path/settings.php"
 
 # Set permissions to app files
 chown -R root: $final_path
+chmod o-rwx $final_path
 chown -R $app:www-data $final_path/files
 chmod -R 770 $final_path/files
 
