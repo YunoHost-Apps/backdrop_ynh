@@ -144,8 +144,6 @@ chown -R root: $final_path
 chown -R $app:www-data $final_path/files
 chmod -R 770 $final_path/files
 
-chmod 600 $final_path/settings.php
-
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
