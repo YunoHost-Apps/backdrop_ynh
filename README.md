@@ -38,8 +38,8 @@ Backdrop CMS includes an update utility to handle any necessary changes to the d
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/backdrop%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/backdrop%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/backdrop/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/backdrop.svg)](https://ci-apps-arm.yunohost.org/ci/apps/backdrop/)
 
 ## Limitations
 
