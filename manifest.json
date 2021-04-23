@@ -6,7 +6,7 @@
     "en": "Easy-to-use CMS for building professional websites",
     "fr": "CMS facile à utiliser pour créer des sites Web professionnels"
   },
-  "version": "1.18.2~ynh1",
+  "version": "1.18.3~ynh1",
   "url": "https://backdropcms.org/",
   "license": "GPL-2.0",
   "maintainer": {
