@@ -96,9 +96,15 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 #=================================================
 ynh_script_progression --message="Configuring Backdrop..." --weight=1
 
-salt="$(ynh_string_random --length=30)" 
+cp ../conf/settings.example.php "$final_path/settings.php"
 
-ynh_add_config --template="../conf/settings.example.php" --destination="$final_path/settings.php"
+# Change variables in ttrss configuration
+ynh_replace_string --match_string="__DB_NAME__" --replace_string="$db_name" --target_file="$final_path/settings.php"
+ynh_replace_string --match_string="__DB_PWD__" --replace_string="$db_pwd" --target_file="$final_path/settings.php"
+ynh_replace_string --match_string="__SALT__" --replace_string="$(ynh_string_random --length=30)" --target_file="$final_path/settings.php"
+
+# Recalculate and store the config file checksum into the app settings
+ynh_store_file_checksum --file="$final_path/settings.php"
 
 #=================================================
 # SECURE FILES AND DIRECTORIES
