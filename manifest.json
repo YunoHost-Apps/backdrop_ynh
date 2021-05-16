@@ -8,6 +8,14 @@
   },
   "version": "1.19.0~ynh1",
   "url": "https://backdropcms.org/",
+  "upstream": {
+        "license": "GPL-2.0",
+        "website": "https://backdropcms.org/",
+        "demo": "https://backdropcms.org/demo",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://backdropcms.org/user-guide",
+        "code": "https://github.com/backdrop/backdrop"
+    },
   "license": "GPL-2.0",
   "maintainer": {
     "name": "eric_G",

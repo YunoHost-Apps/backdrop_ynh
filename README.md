@@ -47,7 +47,7 @@ Backdrop CMS includes an update utility to handle any necessary changes to the d
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/ttrss_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/backdrop_ynh/issues
  * Backdrop website: https://backdropcms.org/
  * Backdrop repository: https://github.com/backdrop/backdrop
  * YunoHost website: https://yunohost.org/
