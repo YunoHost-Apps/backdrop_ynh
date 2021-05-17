@@ -6,13 +6,13 @@
 *[Read this readme in english.](./README.md)* 
 
 > *Ce package vous permet d’installer Backdrop rapidement et simplement sur un serveur YunoHost.  
-Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l’installer.*
+Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/install) pour apprendre comment l’installer.*
 
 ## Vue d’ensemble
 
 Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System for building professional websites.
 
-**Version incluse :** 1.18.3
+**Version incluse :** 1.19.0
 
 ## Captures d’écran
 
