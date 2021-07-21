@@ -1,63 +1,44 @@
 # Backdrop pour YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
+[![Niveau d'intégration](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
 [![Installer Backdrop avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
-*[Read this readme in english.](./README.md)* 
+*[Read this readme in english.](./README.md)*
+*[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d’installer Backdrop rapidement et simplement sur un serveur YunoHost.  
-Si vous n’avez pas YunoHost, consultez [le guide](https://yunohost.org/install) pour apprendre comment l’installer.*
+> *Ce package vous permet d'installer Backdrop rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
-## Vue d’ensemble
+## Vue d'ensemble
 
-Backdrop CMS is a simple, lightweight, and easy-to-use Content Management System for building professional websites.
+CMS facile à utiliser pour créer des sites Web professionnels
 
-**Version incluse :** 1.19.0
+**Version incluse :** 1.19.2~ynh1
 
-## Captures d’écran
+**Démo :** https://backdropcms.org/demo
 
-![](https://backdropcms.org/files/inline-images/Hello_world.png)
+## Captures d'écran
 
-## Démo
+![](./doc/screenshots/Hello_world.png)
 
-* [Démo officielle](https://backdropcms.org/demo)
+## Avertissements / informations importantes
 
 ## Configuration
 
 Backdrop CMS inclus un utilitaire de mise à jour pour gérer toutes les modifications nécessaires à configuration et base de données. [Voir les instructions](https://backdropcms.org/upgrade)
 
-## Documentation
+## Documentations et ressources
 
-* Documentation officielle : https://backdropcms.org/user-guide
+* Site officiel de l'app : https://backdropcms.org/
+* Documentation officielle utilisateur : https://backdropcms.org/user-guide
+* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
+* Dépôt de code officiel de l'app : https://github.com/backdrop/backdrop
+* Documentation YunoHost pour cette app : https://yunohost.org/app_backdrop
+* Signaler un bug : https://github.com/YunoHost-Apps/backdrop_ynh/issues
 
-## Caractéristiques spécifiques YunoHost
+## Informations pour les développeurs
 
-#### Support multi-utilisateurs
-
-* L’authentification LDAP est-elle prise en charge ? **Oui**
-* L’application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
-
-#### Architectures supportées
-
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/backdrop.svg)](https://ci-apps-arm.yunohost.org/ci/apps/backdrop/)
-
-## Limitations
-
-## Informations additionnelles
-
-## Liens
-
-* Signaler un bug : https://github.com/YunoHost-Apps/backdrop_ynh/issues
-* Site web de Backdrop : https://backdropcms.org/
-* Dépôt de l’application principale : https://github.com/backdrop/backdrop
-* Site web YunoHost : https://yunohost.org/
-
----
-
-## Developers infos
-
-Merci de faire vos pull request sur la [testing branch](https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
@@ -65,3 +46,5 @@ sudo yunohost app install https://github.com/YunoHost-Apps/backdrop_ynh/tree/tes
 ou
 sudo yunohost app upgrade backdrop -u https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing --debug
 ```
+
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
