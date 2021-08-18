@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Easy-to-use CMS for building professional websites
 
-**Shipped version:** 1.19.2~ynh1
+**Shipped version:** 1.19.3~ynh1
 
 **Demo:** https://backdropcms.org/demo
 

@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 CMS facile à utiliser pour créer des sites Web professionnels
 
-**Version incluse :** 1.19.2~ynh1
+**Version incluse :** 1.19.3~ynh1
 
 **Démo :** https://backdropcms.org/demo
 
