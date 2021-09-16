@@ -17,12 +17,6 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Backdrop is a full-featured content management system that allows non-technical users to manage a wide variety of content. It can be used to create all kinds of websites including blogs, image galleries, social networks, intranets, and more.
 
-### Features:
-
-- A CMS that can be used out-of-the-box.
-- Code that can be learned quickly.
-- Extensible APIs.
-
 
 **Shipped version:** 1.20.0~ynh1
 
@@ -36,7 +30,8 @@ Backdrop is a full-featured content management system that allows non-technical 
 
 #### upgrade
 
-Backdrop CMS includes an update utility to handle any necessary changes to the database schema or configuration. [See instructions](https://backdropcms.org/upgrade)
+Backdrop CMS includes an update utility to handle any necessary changes to the database schema or configuration. 
+Run `update.php` by navigating to `http://example.com/core/update.php` [See instructions](https://backdropcms.org/upgrade)
 
 ## Documentation and resources
 
