@@ -24,7 +24,7 @@ Backdrop is a full-featured content management system that allows non-technical 
 - Extensible APIs.
 
 
-**Shipped version:** 1.19.3~ynh1
+**Shipped version:** ~ynh1
 
 **Demo:** https://backdropcms.org/demo
 
