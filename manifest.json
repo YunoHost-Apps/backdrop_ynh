@@ -1,14 +1,14 @@
 {
-  "name": "Backdrop",
-  "id": "backdrop",
-  "packaging_format": 1,
-  "description": {
-    "en": "Easy-to-use CMS for building professional websites",
-    "fr": "CMS facile à utiliser pour créer des sites Web professionnels"
-  },
-  "version": "1.19.3~ynh1",
-  "url": "https://backdropcms.org/",
-  "upstream": {
+    "name": "Backdrop",
+    "id": "backdrop",
+    "packaging_format": 1,
+    "description": {
+        "en": "Easy-to-use CMS for building professional websites",
+        "fr": "CMS facile à utiliser pour créer des sites Web professionnels"
+    },
+    "version": "~ynh1",
+    "url": "https://backdropcms.org/",
+    "upstream": {
         "license": "GPL-2.0",
         "website": "https://backdropcms.org/",
         "demo": "https://backdropcms.org/demo",
@@ -16,42 +16,42 @@
         "userdoc": "https://backdropcms.org/user-guide",
         "code": "https://github.com/backdrop/backdrop"
     },
-  "license": "GPL-2.0",
-  "maintainer": {
-    "name": "eric_G",
-    "email": ""
-  },
-  "requirements": {
-    "yunohost": ">= 4.2.4"
-  },
-  "multi_instance": true,
-  "services": [
-      "nginx",
-      "php7.3-fpm",
-      "mysql"
-  ],
-  "arguments": {
-    "install" : [
-    {
-      "name": "domain",
-      "type": "domain",
-      "example": "domain.org"
+    "license": "GPL-2.0",
+    "maintainer": {
+        "name": "eric_G",
+        "email": ""
     },
-    {
-      "name": "path",
-      "type": "path",
-      "example": "/backdrop",
-      "default": "/backdrop"
-      },
-    {
-      "name": "is_public",
-      "type": "boolean",
-      "help": {
-        "en": "If enabled, Backdrop will be accessible by people who do not have an account. This can be changed later via the webadmin.",
-        "fr": "Si cette case est cochée, Backdrop sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
-        },
-        "default": true
-      }
-    ]
-  }
+    "requirements": {
+        "yunohost": ">= 4.2.4"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.3-fpm",
+        "mysql"
+    ],
+    "arguments": {
+        "install": [
+            {
+                "name": "domain",
+                "type": "domain",
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/backdrop",
+                "default": "/backdrop"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "help": {
+                    "en": "If enabled, Backdrop will be accessible by people who do not have an account. This can be changed later via the webadmin.",
+                    "fr": "Si cette case est cochée, Backdrop sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+                },
+                "default": true
+            }
+        ]
+    }
 }
