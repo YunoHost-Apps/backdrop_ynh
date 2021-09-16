@@ -1,0 +1,1 @@
+Backdrop est un système de gestion de contenu complet qui permet aux utilisateurs non techniques de gérer une grande variété de contenu. Il peut être utilisé pour créer toutes sortes de sites Web, notamment des blogs, des galeries d'image, des réseaux sociaux, des intranets et plus encore.
