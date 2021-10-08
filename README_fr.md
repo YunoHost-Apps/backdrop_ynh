@@ -32,7 +32,6 @@ Backdrop CMS inclus un utilitaire de mise à jour pour gérer toutes les modific
 
 * Site officiel de l'app : https://backdropcms.org/
 * Documentation officielle utilisateur : https://backdropcms.org/user-guide
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/backdrop/backdrop
 * Documentation YunoHost pour cette app : https://yunohost.org/app_backdrop
 * Signaler un bug : https://github.com/YunoHost-Apps/backdrop_ynh/issues
