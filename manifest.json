@@ -12,7 +12,6 @@
         "license": "GPL-2.0",
         "website": "https://backdropcms.org/",
         "demo": "https://backdropcms.org/demo",
-        "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://backdropcms.org/user-guide",
         "code": "https://github.com/backdrop/backdrop"
     },
@@ -34,8 +33,7 @@
         "install": [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "path",
