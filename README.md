@@ -37,7 +37,6 @@ Run `update.php` by navigating to `http://example.com/core/update.php` [See inst
 
 * Official app website: https://backdropcms.org/
 * Official user documentation: https://backdropcms.org/user-guide
-* Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/backdrop/backdrop
 * YunoHost documentation for this app: https://yunohost.org/app_backdrop
 * Report a bug: https://github.com/YunoHost-Apps/backdrop_ynh/issues
