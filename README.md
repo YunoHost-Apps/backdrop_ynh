@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Backdrop for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Working status](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
 [![Install Backdrop with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -24,7 +24,7 @@ Backdrop is a full-featured content management system that allows non-technical 
 
 ## Screenshots
 
-![](./doc/screenshots/Hello_world.png)
+![Screenshot of Backdrop](./doc/screenshots/Hello_world.png)
 
 ## Disclaimers / important information
 
@@ -35,21 +35,22 @@ Run `update.php` by navigating to `http://example.com/core/update.php` [See inst
 
 ## Documentation and resources
 
-* Official app website: https://backdropcms.org/
-* Official user documentation: https://backdropcms.org/user-guide
-* Upstream app code repository: https://github.com/backdrop/backdrop
-* YunoHost documentation for this app: https://yunohost.org/app_backdrop
-* Report a bug: https://github.com/YunoHost-Apps/backdrop_ynh/issues
+* Official app website: <https://backdropcms.org/>
+* Official user documentation: <https://backdropcms.org/user-guide>
+* Upstream app code repository: <https://github.com/backdrop/backdrop>
+* YunoHost documentation for this app: <https://yunohost.org/app_backdrop>
+* Report a bug: <https://github.com/YunoHost-Apps/backdrop_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade backdrop -u https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
