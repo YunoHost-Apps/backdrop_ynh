@@ -6,14 +6,15 @@
         "en": "Easy-to-use CMS for building professional websites",
         "fr": "CMS facile à utiliser pour créer des sites Web professionnels"
     },
-    "version": "1.22.0~ynh1",
+    "version": "1.22.2~ynh1",
     "url": "https://backdropcms.org/",
     "upstream": {
         "license": "GPL-2.0",
         "website": "https://backdropcms.org/",
         "demo": "https://backdropcms.org/demo",
         "userdoc": "https://backdropcms.org/user-guide",
-        "code": "https://github.com/backdrop/backdrop"
+        "code": "https://github.com/backdrop/backdrop",
+        "cpe": "cpe:2.3:a:backdropcms:backdrop"
     },
     "license": "GPL-2.0",
     "maintainer": {
@@ -21,12 +22,12 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
+        "php8.0-fpm",
         "mysql"
     ],
     "arguments": {
