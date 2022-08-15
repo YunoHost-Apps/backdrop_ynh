@@ -13,7 +13,8 @@
         "website": "https://backdropcms.org/",
         "demo": "https://backdropcms.org/demo",
         "userdoc": "https://backdropcms.org/user-guide",
-        "code": "https://github.com/backdrop/backdrop"
+        "code": "https://github.com/backdrop/backdrop",
+        "cpe": "cpe:2.3:a:backdropcms:backdrop"
     },
     "license": "GPL-2.0",
     "maintainer": {
