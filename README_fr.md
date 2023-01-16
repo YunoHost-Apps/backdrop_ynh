@@ -5,26 +5,26 @@ It shall NOT be edited by hand.
 
 # Backdrop pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
 [![Installer Backdrop avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Backdrop rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Backdrop rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Backdrop est un système de gestion de contenu complet qui permet aux utilisateurs non techniques de gérer une grande variété de contenu. Il peut être utilisé pour créer toutes sortes de sites Web, notamment des blogs, des galeries d'image, des réseaux sociaux, des intranets et plus encore.
 
 
-**Version incluse :** 1.23.1~ynh1
+**Version incluse :** 1.24.0~ynh1
 
 **Démo :** https://backdropcms.org/demo
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Backdrop](./doc/screenshots/Hello_world.png)
+![Capture d’écran de Backdrop](./doc/screenshots/Hello_world.png)
 
 ## Avertissements / informations importantes
 
@@ -34,9 +34,9 @@ Backdrop CMS inclus un utilitaire de mise à jour pour gérer toutes les modific
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://backdropcms.org/>
+* Site officiel de l’app : <https://backdropcms.org/>
 * Documentation officielle utilisateur : <https://backdropcms.org/user-guide>
-* Dépôt de code officiel de l'app : <https://github.com/backdrop/backdrop>
+* Dépôt de code officiel de l’app : <https://github.com/backdrop/backdrop>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_backdrop>
 * Signaler un bug : <https://github.com/YunoHost-Apps/backdrop_ynh/issues>
 
@@ -52,4 +52,4 @@ ou
 sudo yunohost app upgrade backdrop -u https://github.com/YunoHost-Apps/backdrop_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
