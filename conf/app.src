@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/backdrop/backdrop/releases/download/1.23.1/backdrop.zip
-SOURCE_SUM=2cdc132e2b235f38752f317bd7d8c64bcecad3f8f9101a296af9469247e56985
+SOURCE_URL=https://github.com/backdrop/backdrop/releases/download/1.24.0/backdrop.zip
+SOURCE_SUM=62efa0cb372289e976e0fa3e25c379dc375909e3b9468969ce9d8c5c10600548
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
