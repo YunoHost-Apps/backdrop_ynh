@@ -1,0 +1,58 @@
+packaging_format = 2
+
+id = "backdrop"
+name = "Backdrop"
+description.en = "Easy-to-use CMS for building professional websites"
+description.fr = "CMS facile à utiliser pour créer des sites Web professionnels"
+
+version = "1.24.1~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-2.0"
+website = "https://backdropcms.org/"
+demo = "https://backdropcms.org/demo"
+userdoc = "https://backdropcms.org/user-guide"
+code = "https://github.com/backdrop/backdrop"
+
+[integration]
+yunohost = ">= 11.1.15"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/backdrop"
+
+    [install.init_main_permission]
+    help.en = "If enabled, Backdrop will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Backdrop sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/backdrop/backdrop/releases/download/1.24.1/backdrop.zip"
+        sha256 = "5700cfe54bddd3722303457463eb139388f02930da8e7c6fbcd2c3079e329513"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "mariadb-server php8.0-mbstring php8.0-xmlrpc php8.0-soap php8.0-mysql php8.0-gd php8.0-xml php8.0-cli php8.0-zip"
+
+    [resources.database]
+    type = "mysql"
