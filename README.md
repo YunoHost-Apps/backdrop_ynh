@@ -27,13 +27,6 @@ Backdrop is a full-featured content management system that allows non-technical 
 
 ![Screenshot of Backdrop](./doc/screenshots/Hello_world.png)
 
-## Disclaimers / important information
-
-#### upgrade
-
-Backdrop CMS includes an update utility to handle any necessary changes to the database schema or configuration. 
-Run `update.php` by navigating to `http://example.com/core/update.php` [See instructions](https://backdropcms.org/upgrade)
-
 ## Documentation and resources
 
 * Official app website: <https://backdropcms.org/>
