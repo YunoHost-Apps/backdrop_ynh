@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Backdrop for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Working status](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Working status](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
+
 [![Install Backdrop with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -18,20 +19,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Backdrop is a full-featured content management system that allows non-technical users to manage a wide variety of content. It can be used to create all kinds of websites including blogs, image galleries, social networks, intranets, and more.
 
 
-**Shipped version:** 1.24.0~ynh1
+**Shipped version:** 1.24.1~ynh1
 
 **Demo:** https://backdropcms.org/demo
 
 ## Screenshots
 
 ![Screenshot of Backdrop](./doc/screenshots/Hello_world.png)
-
-## Disclaimers / important information
-
-#### upgrade
-
-Backdrop CMS includes an update utility to handle any necessary changes to the database schema or configuration. 
-Run `update.php` by navigating to `http://example.com/core/update.php` [See instructions](https://backdropcms.org/upgrade)
 
 ## Documentation and resources
 
