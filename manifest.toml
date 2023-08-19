@@ -5,7 +5,7 @@ name = "Backdrop"
 description.en = "Easy-to-use CMS for building professional websites"
 description.fr = "CMS facile à utiliser pour créer des sites Web professionnels"
 
-version = "1.25.1~ynh1"
+version = "1.25.1~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ userdoc = "https://backdropcms.org/user-guide"
 code = "https://github.com/backdrop/backdrop"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
