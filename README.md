@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Backdrop is a full-featured content management system that allows non-technical users to manage a wide variety of content. It can be used to create all kinds of websites including blogs, image galleries, social networks, intranets, and more.
 
 
-**Shipped version:** 1.26.0~ynh2
+**Shipped version:** 1.26.1~ynh1
 
 **Demo:** https://backdropcms.org/demo
 
@@ -32,7 +32,6 @@ Backdrop is a full-featured content management system that allows non-technical 
 * Official app website: <https://backdropcms.org/>
 * Official user documentation: <https://backdropcms.org/user-guide>
 * Upstream app code repository: <https://github.com/backdrop/backdrop>
-* YunoHost documentation for this app: <https://yunohost.org/app_backdrop>
 * Report a bug: <https://github.com/YunoHost-Apps/backdrop_ynh/issues>
 
 ## Developer info
