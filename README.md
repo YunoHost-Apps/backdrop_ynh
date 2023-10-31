@@ -32,7 +32,7 @@ Backdrop is a full-featured content management system that allows non-technical 
 * Official app website: <https://backdropcms.org/>
 * Official user documentation: <https://backdropcms.org/user-guide>
 * Upstream app code repository: <https://github.com/backdrop/backdrop>
-* YunoHost documentation for this app: <https://yunohost.org/app_backdrop>
+* YunoHost Store: <https://apps.yunohost.org/app/backdrop>
 * Report a bug: <https://github.com/YunoHost-Apps/backdrop_ynh/issues>
 
 ## Developer info
