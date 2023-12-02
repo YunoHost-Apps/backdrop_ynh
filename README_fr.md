@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Backdrop est un système de gestion de contenu complet qui permet aux utilisateurs non techniques de gérer une grande variété de contenu. Il peut être utilisé pour créer toutes sortes de sites Web, notamment des blogs, des galeries d'image, des réseaux sociaux, des intranets et plus encore.
 
 
-**Version incluse :** 1.26.0~ynh2
+**Version incluse :** 1.26.2~ynh1
 
 **Démo :** https://backdropcms.org/demo
 
@@ -32,7 +32,7 @@ Backdrop est un système de gestion de contenu complet qui permet aux utilisateu
 * Site officiel de l’app : <https://backdropcms.org/>
 * Documentation officielle utilisateur : <https://backdropcms.org/user-guide>
 * Dépôt de code officiel de l’app : <https://github.com/backdrop/backdrop>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_backdrop>
+* YunoHost Store: <https://apps.yunohost.org/app/backdrop>
 * Signaler un bug : <https://github.com/YunoHost-Apps/backdrop_ynh/issues>
 
 ## Informations pour les développeurs
