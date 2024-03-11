@@ -26,7 +26,7 @@ then
 	ynh_script_progression --message="Reconfiguring $app..." --weight=2
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --keep="settings.php"
+	ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="settings.php"
 fi
 
 # Set permissions to app files
