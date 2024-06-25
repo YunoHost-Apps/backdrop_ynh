@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Backdrop est un système de gestion de contenu complet qui permet aux utilisateurs non techniques de gérer une grande variété de contenu. Il peut être utilisé pour créer toutes sortes de sites Web, notamment des blogs, des galeries d'image, des réseaux sociaux, des intranets et plus encore.
 
 
-**Version incluse :** 1.28.0~ynh1
+**Version incluse :** 1.28.1~ynh1
 
 **Démo :** <https://backdropcms.org/demo>
 
