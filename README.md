@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Backdrop for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Working status](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/) ![Working status](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
 
 [![Install Backdrop with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Backdrop is a full-featured content management system that allows non-technical users to manage a wide variety of content. It can be used to create all kinds of websites including blogs, image galleries, social networks, intranets, and more.
 
 
-**Shipped version:** 1.28.0~ynh1
+**Shipped version:** 1.28.1~ynh1
 
 **Demo:** <https://backdropcms.org/demo>
 
