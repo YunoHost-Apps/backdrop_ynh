@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Backdrop YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
 
 [![Instalatu Backdrop YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 

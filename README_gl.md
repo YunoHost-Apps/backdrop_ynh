@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Backdrop para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
 
 [![Instalar Backdrop con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 

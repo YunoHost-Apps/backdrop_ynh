@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Backdrop
 
-[![集成程度](https://dash.yunohost.org/integration/backdrop.svg)](https://dash.yunohost.org/appci/app/backdrop) ![工作状态](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/backdrop.svg)](https://ci-apps.yunohost.org/ci/apps/backdrop/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/backdrop.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/backdrop.maintain.svg)
 
 [![使用 YunoHost 安装 Backdrop](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=backdrop)
 
