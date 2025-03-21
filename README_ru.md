@@ -21,7 +21,7 @@
 Backdrop is a full-featured content management system that allows non-technical users to manage a wide variety of content. It can be used to create all kinds of websites including blogs, image galleries, social networks, intranets, and more.
 
 
-**Поставляемая версия:** 1.30.1~ynh1
+**Поставляемая версия:** 1.30.2~ynh1
 
 **Демо-версия:** <https://backdropcms.org/demo>
 
