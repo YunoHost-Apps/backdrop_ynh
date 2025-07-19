@@ -17,12 +17,14 @@ userdoc = "https://backdropcms.org/user-guide"
 code = "https://github.com/backdrop/backdrop"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -55,7 +57,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php8.0-mbstring php8.0-xmlrpc php8.0-soap php8.0-mysql php8.0-gd php8.0-xml php8.0-cli php8.0-zip"
+    packages = "mariadb-server, php8.4-mbstring, php8.4-xmlrpc, php8.4-soap, php8.4-mysql, php8.4-gd, php8.4-xml, php8.4-zip"
 
     [resources.database]
     type = "mysql"
