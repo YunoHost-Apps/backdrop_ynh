@@ -5,7 +5,7 @@ name = "Backdrop"
 description.en = "Easy-to-use CMS for building professional websites"
 description.fr = "CMS facile à utiliser pour créer des sites Web professionnels"
 
-version = "1.33.2~ynh1"
+version = "1.34.0~ynh1"
 
 maintainers = []
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/backdrop/backdrop/archive/refs/tags/1.33.2.tar.gz"
-        sha256 = "6b456becd80bcd7fda3b4b4676d253bcf96b284ac32fcfb3fa342ab3ea7d76fa"
+        url = "https://github.com/backdrop/backdrop/archive/refs/tags/1.34.0.tar.gz"
+        sha256 = "59c95fa3640f25a20a61ba913df510a85e2133d36d3ddd09a76970cbf00c8460"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
